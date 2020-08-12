@@ -322,7 +322,7 @@ img{
   width: 50%;
   box-shadow: 0 4px 25px rgba(14,36,49,.15);
   border-radius: .5rem;
-  overflow: active;
+  overflow: hidden;
   margin: 30px;
 }
 .projectinfo {
@@ -330,7 +330,6 @@ img{
   flex-direction: column;
   justify-content: space-around;
   line-height: 25px;
-  width: 50%;
   padding: 30px;
 }
 .work__img img{
