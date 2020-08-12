@@ -315,6 +315,7 @@ img{
 }
 .work__container{
   display: flex;
+  flex-direction: column;
   align-items:center;
 }
 .work__img{
@@ -322,7 +323,7 @@ img{
   width: 50%;
   box-shadow: 0 4px 25px rgba(14,36,49,.15);
   border-radius: .5rem;
-  overflow: hidden;
+  overflow: visible;
   margin: 30px;
 }
 .projectinfo {
