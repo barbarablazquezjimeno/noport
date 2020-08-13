@@ -207,7 +207,10 @@ img{
     &__social{
         display: flex;
         flex-direction: column;
+
         &-icon{
+            display:flex;
+            justify-content: space-between;
             width: max-content;
             margin-bottom: var(--mb-2);
             font-size: 1.5rem;
@@ -217,13 +220,6 @@ img{
                 color: var(--first-color);
             }
         }
-    }
-
-    &__img{
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        width: 295px;
     }
 }
 
@@ -322,6 +318,7 @@ img{
 /* ===== WORK =====*/
 .work{
     &__container{
+        display:flex;
         margin: auto;
         padding: auto;
     }
@@ -431,7 +428,7 @@ img{
             padding-top: 0;
             padding-bottom: 2.5rem;
             flex-direction: row;
-            align-self: flex-end;
+            align-self: center;
 
             &-icon{
                 margin-bottom: 0;
